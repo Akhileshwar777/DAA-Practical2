@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function to perform Linear Search
+
 int linearSearch(int arr[], int n, int key) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == key)
@@ -11,7 +11,7 @@ int linearSearch(int arr[], int n, int key) {
 }
 
 int main() {
-    // Predefined array
+   
     int arr[] = {10, 20, 30, 40, 50};
     int n = sizeof(arr) / sizeof(arr[0]);
 
